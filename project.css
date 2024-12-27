@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+    background-color: #fdf5e6; /* Light gold background */
+    color: #b8860b; /* Darker gold for text */
+    background-image: url(background.jpg);
+   
+}
+
+/* Header Styles */
+header {
+    background-image: url(header.jpg);
+    background-color: #e7d985; /* Dark gold */
+    color: white;
+    padding: 20px 0px;
+}
+
+header .container {
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+header h1 {
+    
+    margin: 0px;
+    font-size: 48px;
+    color: #fff; /* Bright gold */
+}
+
+header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #e7d985; /* Bright gold */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    background-color: #e7d985; /* Dark gold */
+}
+select {
+    margin: 20px 0px 0px;
+    margin: -10px auto;
+    text-align: center;
+    color: #e7d985;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e7d985;
+    border-radius: 60px;
+    box-shadow: 2px 5px 5px #b9870a;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 600px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #e7d985;
+    border-radius: 5px;
+    background-color: #fffbe7; /* Subtle gold tint */
+    color: #e7d985;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e7d985; /* Bright gold */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: darkkhaki; /* Dark gold */
+}
+
+/* Main Section Styles */
+main {
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #e7d985;
+    border-radius: 10px;
+    background-color: #fff8dc; /* Lighter gold background */
+    box-shadow: 0px 4px 8px rgba(184, 134, 11, 0.4); /* Gold shadow */
+}
+
+section h2 {
+    color: #e7d985; /* Dark gold */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+section a {
+    background-color: #e7d985; /* Bright gold */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section a:hover {
+    background-color: darkkhaki; /* Dark gold */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #e7d985; /* Dark gold */
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 40px;
+    font-size: 18px;
+}
